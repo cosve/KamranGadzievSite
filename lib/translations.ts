@@ -184,6 +184,35 @@ export const translations = {
       contactPrefix:
         "Оператор персональных данных: Кямран Гаджиев. Контакты для обращений:",
     },
+    bookSection: {
+      heading: "Авторская книга стихов",
+      label: "Поэзия",
+      shortDescription:
+        "Авторские стихи на азербайджанском языке — языке с богатой культурной традицией, глубокой мелодикой и особой эмоциональной выразительностью. Каждое произведение создавалось с вниманием к слову, интонации и смыслу.",
+      description:
+        "Авторские стихи на азербайджанском языке — языке с богатой культурной традицией, глубокой мелодикой и особой эмоциональной выразительностью. В сборнике собраны тексты, рожденные из наблюдений, личных историй и тонкого чувства сцены. Каждое произведение создавалось с вниманием к слову, интонации и смыслу, чтобы поэзия звучала живо, глубоко и по-настоящему.",
+      button: "Читать отрывок",
+    },
+    bookPage: {
+      metaTitle: "Книга стихов — Кямран Гаджиев",
+      metaDescription:
+        "Авторский сборник стихов Кямрана Гаджиева на азербайджанском языке",
+      title: "Авторская книга стихов",
+      intro:
+        "В сборнике собраны авторские стихи на азербайджанском языке — языке с богатой культурной традицией, глубокой мелодикой и особой эмоциональной выразительностью. Каждое произведение отражает внимание к слову, интонации и смыслу — тем элементам, которые лежат в основе работы на сцене.",
+      poemsHeading: "Фрагменты из книги",
+      poemsNote: "Стихи на азербайджанском языке",
+      previewNote:
+        "Вы читаете фрагмент. Полный сборник доступен для приобретения.",
+      purchaseTitle: "Полный сборник",
+      purchaseDescription:
+        "Чтобы приобрести полный сборник стихов, свяжитесь со мной — отвечу в ближайшее время.",
+      purchaseButton: "Приобрести книгу",
+      modalTitle: "Приобрести книгу",
+      modalText: "Свяжитесь со мной по номеру телефона:",
+      modalClose: "Закрыть",
+      breadcrumb: "Книга стихов",
+    },
   },
   az: {
     meta: {
@@ -362,6 +391,35 @@ export const translations = {
         },
       ],
       contactPrefix: "Fərdi məlumatların operatoru: Kamran Hacıyev. Əlaqə:",
+    },
+    bookSection: {
+      heading: "Müəllif şeirlər kitabı",
+      label: "Poeziya",
+      shortDescription:
+        "Azərbaycan dilinin zəngin mədəni ənənəsini, dərin melodikliyini və xüsusi emosional ifadəliliyini əks etdirən müəllif şeirləri toplusu. Hər əsər söz, intonasiya və mənaya diqqətin məhsuludur.",
+      description:
+        "Azərbaycan dilinin zəngin mədəni ənənəsini, dərin melodikliyini və xüsusi emosional ifadəliliyini əks etdirən müəllif şeirləri toplusu. Kitabda müşahidələrdən, şəxsi hekayələrdən və səhnəni incə hiss etməkdən doğan mətnlər yer alır. Hər əsər sözə, intonasiyaya və mənaya diqqətin məhsuludur ki, poeziya canlı, dərin və səmimi səslənsin.",
+      button: "Parçaları oxu",
+    },
+    bookPage: {
+      metaTitle: "Şeirlər kitabı — Kamran Hacıyev",
+      metaDescription:
+        "Kamran Hacıyevin Azərbaycan dilindəki müəllif şeirləri toplusu",
+      title: "Müəllif şeirlər kitabı",
+      intro:
+        "Azərbaycan dilinin zəngin mədəni ənənəsini, dərin melodikliyini və xüsusi emosional ifadəliliyini əks etdirən şeirlər toplusu. Hər əsər söz, intonasiya və mənaya diqqətin məhsuludur.",
+      poemsHeading: "Kitabdan parçalar",
+      poemsNote: "Şeirlər Azərbaycan dilindədir",
+      previewNote:
+        "Siz parçaları oxuyursunuz. Tam toplu əldə etmək üçün bizimlə əlaqə saxlayın.",
+      purchaseTitle: "Tam toplu",
+      purchaseDescription:
+        "Tam şeirlər toplusunu əldə etmək üçün mənimlə əlaqə saxlayın — yaxın zamanda cavab verəcəyəm.",
+      purchaseButton: "Kitabı əldə et",
+      modalTitle: "Kitabı əldə et",
+      modalText: "Telefon nömrəsi ilə əlaqə saxlayın:",
+      modalClose: "Bağla",
+      breadcrumb: "Şeirlər kitabı",
     },
   },
   en: {
@@ -542,6 +600,35 @@ export const translations = {
         },
       ],
       contactPrefix: "Personal data operator: Kamran Gadzhiev. Contact:",
+    },
+    bookSection: {
+      heading: "Poetry collection",
+      label: "Poetry",
+      shortDescription:
+        "Original poems in Azerbaijani — a language of rich cultural tradition, deep melody, and emotional expressiveness. Each piece was crafted with attention to word, intonation, and meaning.",
+      description:
+        "Original poems in Azerbaijani — a language of rich cultural tradition, deep melody, and emotional expressiveness. The collection brings together pieces shaped by observation, personal stories, and a precise sense of the stage. Each poem was crafted with attention to word, intonation, and meaning, so the poetry feels alive, sincere, and deeply spoken.",
+      button: "Read excerpt",
+    },
+    bookPage: {
+      metaTitle: "Poetry collection — Kamran Gadzhiev",
+      metaDescription:
+        "Original poetry collection by Kamran Gadzhiev in Azerbaijani",
+      title: "Poetry collection",
+      intro:
+        "A collection of original poems in Azerbaijani — a language of rich cultural tradition, deep melody, and emotional expressiveness. Each piece reflects attention to word, intonation, and meaning.",
+      poemsHeading: "Excerpts from the book",
+      poemsNote: "Poems in Azerbaijani",
+      previewNote:
+        "You are reading an excerpt. The full collection is available for purchase.",
+      purchaseTitle: "Full collection",
+      purchaseDescription:
+        "To purchase the full poetry collection, contact me and I will respond shortly.",
+      purchaseButton: "Purchase the book",
+      modalTitle: "Purchase the book",
+      modalText: "Contact me by phone:",
+      modalClose: "Close",
+      breadcrumb: "Poetry collection",
     },
   },
 } satisfies Record<Locale, Record<string, unknown>>;

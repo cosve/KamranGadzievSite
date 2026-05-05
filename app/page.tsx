@@ -10,6 +10,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { getLocalizedHref, getLocaleFromSearchParams, type SearchParamsInput, type Locale } from "@/lib/i18n";
+
 import { breadcrumbJsonLd, buildPageMetadata, personJsonLd } from "@/lib/seo";
 import { translations } from "@/lib/translations";
 
@@ -154,6 +155,54 @@ function PoemSection({ locale }: { locale: Locale }) {
   );
 }
 
+function BookSection({ locale }: { locale: Locale }) {
+  const t = translations[locale].bookSection;
+
+  return (
+    <section className="w-full max-w-7xl mx-auto px-8 lg:px-14.5">
+      <h2 className="text-white font-bold text-[20px] lg:text-[24px] mb-6 lg:mb-8">
+        {t.heading}
+      </h2>
+
+      <div className="relative overflow-hidden rounded-[20px] bg-[#172535]">
+        <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(340px,430px)]">
+          <div className="flex flex-col justify-between gap-7 p-6 lg:p-10">
+            <div className="flex flex-col gap-4 lg:gap-5">
+              <p className="sm:hidden text-white text-[15px] leading-relaxed">
+                {t.shortDescription}
+              </p>
+              <p className="hidden sm:block lg:max-w-2xl text-white text-[15px] lg:text-[20px] leading-relaxed">
+                {t.description}
+              </p>
+            </div>
+
+            <Link
+              href={getLocalizedHref("/book", locale)}
+              className="inline-block self-start bg-[#183b62] border border-[#ebe2c3] text-[#ebe2c3]
+                         font-bold text-[14px] lg:text-[16px] uppercase px-8 py-3 rounded-xl
+                         hover:bg-[#1f4a7a] transition-colors"
+            >
+              {t.button}
+            </Link>
+          </div>
+
+          <div className="relative order-first lg:order-none min-h-[240px] sm:min-h-[320px] lg:min-h-full bg-[#1d334b]">
+            <Image
+              src="/Book.avif"
+              alt={t.heading}
+              fill
+              unoptimized
+              sizes="(min-width: 1024px) 430px, 100vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0a1521]/55 via-transparent to-transparent lg:bg-gradient-to-r lg:from-[#172535]/25 lg:via-transparent lg:to-transparent" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function ReadingSection({ locale }: { locale: Locale }) {
   const t = translations[locale].home;
 
@@ -241,6 +290,7 @@ export default async function Home({ searchParams }: HomeProps) {
         <MomentsSection locale={locale} />
         <PoemSection locale={locale} />
         <ReadingSection locale={locale} />
+        <BookSection locale={locale} />
         <FormSection locale={locale} successPath="/" />
       </div>
     </main>
