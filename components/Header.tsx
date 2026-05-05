@@ -138,6 +138,7 @@ export default function Header() {
     { href: "/wedding", label: t.common.wedding },
     { href: "/anniversary", label: t.common.anniversary },
     { href: "/events", label: t.common.events },
+    { href: "/book", label: t.common.book },
     { href: "/contacts", label: t.common.contacts },
   ];
 
